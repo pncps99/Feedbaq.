@@ -1,0 +1,7 @@
+# How to setup database for ETL
+
+1. go to database driver folder
+2. grab the `.jar` file and paste in `data-integration\lib`, and correct versioning
+3. tweak `server.properties` to liking
+4. run `java -classpath lib/hsqldb.jar org.hsqldb.server.Server` on the directory
+
