@@ -1,0 +1,1 @@
+java -cp C:\hsqldb-2.7.1\hsqldb\lib\hsqldb.jar org.hsqldb.server.Server --database.0 file:db/tweetdb --dbname.0 tweetdb

@@ -1,14 +1,11 @@
 id;text;sentiment;negative;neutral;positive;emotion;anger;joy;optimism;sadness;subject
-1591517846609207298;Sponsor me @Crocs @Nike https://t.co/SQpbd2x2MC;neutral;0.03169098;0.7960842;0.17222476;joy;0.09232745;0.5118026;0.34545076;0.050419133;nike
-1591517700677066752;@PadrinoProxies @wytmerj @hoopszilla_ @ye4us @Nike @adidas https://t.co/LWZQlVZvVa;neutral;0.14229487;0.6839312;0.17377394;joy;0.04614187;0.8537561;0.057843402;0.04225873;nike
-1591517661678166018;Bring this back for a LeBron commercial @Nike @KingJames https://t.co/QD8bCFpa2Z;neutral;0.010237305;0.65104157;0.3387211;joy;0.026529798;0.89623386;0.057672787;0.019563526;nike
-1591517654833135616;@nike https://t.co/2Zep04s4Py;neutral;0.19920413;0.5736109;0.22718497;anger;0.37116957;0.31275848;0.10496913;0.21110283;nike
-1591517582225735681;@wytmerj @KenosiPhenyo @PadrinoProxies @hoopszilla_ @ye4us @Nike @adidas Ignorant Americans thinking the world revolves around them.;negative;0.88898695;0.10373068;0.0072822706;anger;0.92628324;0.0077353637;0.031562593;0.034418844;nike
-1591517407931146240;@GenDeftinwolf @EAMaddenNFL They are going to lose some because I will never spend another dollar on anything madden related that includes @nfl/ @amazon/ @nike/ @easports. They are pretty much scamming people at this point.;negative;0.9570412;0.040118713;0.002840105;anger;0.9594711;0.004700532;0.010731295;0.025097044;nike
-1591516936994975745;@kurts_c @SnkrQueenBayay @efiorentino31 @hisexcellence79 @Nike @nikestore @Jumpman23 Thanks you big bro. 🙏🏽🙌🏽;positive;0.0019398802;0.03728991;0.96077025;joy;0.027086977;0.8246647;0.13340096;0.014847291;nike
-1591516889448153089;"@nike let me cook up an official 
-San Antonio AF1 with y’all";neutral;0.013224679;0.87551033;0.11126498;joy;0.1325298;0.6962476;0.14470506;0.02651758;nike
-1591516730060574720;"RT @LinusCaldwell5: Impeccable. #SpaceDrip💧 💧 
-
-@Jruffhouse @JonathanWWolfe @RTFKT @Nike #unboxing https://t.co/tNxXr0XC3D";neutral;0.044023573;0.60740775;0.34856874;joy;0.102747895;0.83901966;0.02800095;0.030231595;nike
-1591516626918477827;Day 12 of 19. Jordan  1 Rebellionaire, #1of1  @hisexcellence79 @Nike @nikestore @Jumpman23 https://t.co/LpUJATHQOh;neutral;0.013472483;0.906683;0.07984443;joy;0.027477905;0.81444204;0.124109976;0.033970013;nike
+1591517846609207298;"Sponsor me @Crocs @Nike https://t.co/SQpbd2x2MC";neutral;0.03169098;0.7960842;0.17222476;joy;0.09232745;0.5118026;0.34545076;0.050419133;nike
+1591517700677066752;"@PadrinoProxies @wytmerj @hoopszilla_ @ye4us @Nike @adidas https://t.co/LWZQlVZvVa";neutral;0.14229487;0.6839312;0.17377394;joy;0.04614187;0.8537561;0.057843402;0.04225873;nike
+1591517661678166018;"Bring this back for a LeBron commercial @Nike @KingJames https://t.co/QD8bCFpa2Z";neutral;0.010237305;0.65104157;0.3387211;joy;0.026529798;0.89623386;0.057672787;0.019563526;nike
+1591517654833135616;"@nike https://t.co/2Zep04s4Py";neutral;0.19920413;0.5736109;0.22718497;anger;0.37116957;0.31275848;0.10496913;0.21110283;nike
+1591517582225735681;"@wytmerj @KenosiPhenyo @PadrinoProxies @hoopszilla_ @ye4us @Nike @adidas Ignorant Americans thinking the world revolves around them.";negative;0.88898695;0.10373068;0.0072822706;anger;0.92628324;0.0077353637;0.031562593;0.034418844;nike
+1591517407931146240;"@GenDeftinwolf @EAMaddenNFL They are going to lose some because I will never spend another dollar on anything madden related that includes @nfl/ @amazon/ @nike/ @easports. They are pretty much scamming people at this point.";negative;0.9570412;0.040118713;0.002840105;anger;0.9594711;0.004700532;0.010731295;0.025097044;nike
+1591516936994975745;"@kurts_c @SnkrQueenBayay @efiorentino31 @hisexcellence79 @Nike @nikestore @Jumpman23 Thanks you big bro. 🙏🏽🙌🏽";positive;0.0019398802;0.03728991;0.96077025;joy;0.027086977;0.8246647;0.13340096;0.014847291;nike
+1591516889448153089;"@nike let me cook up an official San Antonio AF1 with y'all";neutral;0.013224679;0.87551033;0.11126498;joy;0.1325298;0.6962476;0.14470506;0.02651758;nike
+1591516730060574720;"RT @LinusCaldwell5: Impeccable. #SpaceDrip💧 💧 @Jruffhouse @JonathanWWolfe @RTFKT @Nike #unboxing https://t.co/tNxXr0XC3D";neutral;0.044023573;0.60740775;0.34856874;joy;0.102747895;0.83901966;0.02800095;0.030231595;nike
+1591516626918477827;"Day 12 of 19. Jordan  1 Rebellionaire, #1of1  @hisexcellence79 @Nike @nikestore @Jumpman23 https://t.co/LpUJATHQOh";neutral;0.013472483;0.906683;0.07984443;joy;0.027477905;0.81444204;0.124109976;0.033970013;nike

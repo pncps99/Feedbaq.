@@ -1,0 +1,508 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.22.0916.1526                               -->
+<workbook original-version='18.1' source-build='2022.2.2 (20222.22.0916.1526)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='TWEET_DATA (PUBLIC)' inline='true' name='federated.1s8gyxo17noakg1cscsaq141itnj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='jdbc:hsqldb:hsql://localhost/tweetdb' name='genericjdbc.00yickb0u4eshv14fsnvt12uczje'>
+            <connection class='genericjdbc' dbname='PUBLIC' dialect='genericjdbc' jdbcproperties='' jdbcurl='jdbc:hsqldb:hsql://localhost/tweetdb' schema='PUBLIC' server='localhost' username='SA' warehouse=''>
+              <connection-customization class='genericjdbc' enabled='false' version='18.1'>
+                <vendor name='genericjdbc' />
+                <driver name='hsqldb' />
+                <customizations>
+                  <customization name='CAP_CONNECT_CUSTOM_SQL_WITHOUT_SCHEMA' value='no' />
+                  <customization name='CAP_CREATE_TEMP_TABLES' value='no' />
+                  <customization name='CAP_CUSTOM_NOSQL' value='no' />
+                  <customization name='CAP_EXTRACT_ONLY' value='no' />
+                  <customization name='CAP_ISOLATION_LEVEL_READ_COMMITTED' value='no' />
+                  <customization name='CAP_ISOLATION_LEVEL_READ_UNCOMMITTED' value='no' />
+                  <customization name='CAP_ISOLATION_LEVEL_REPEATABLE_READS' value='no' />
+                  <customization name='CAP_ISOLATION_LEVEL_SERIALIZABLE' value='no' />
+                  <customization name='CAP_JDBC_BIND_DETECT_ALIAS_CASE_FOLDING' value='no' />
+                  <customization name='CAP_JDBC_SUPPRESS_EMPTY_CATALOG_NAME' value='no' />
+                  <customization name='CAP_JDBC_SUPPRESS_ENUMERATE_DATABASES' value='no' />
+                  <customization name='CAP_JDBC_SUPPRESS_ENUMERATE_SCHEMAS' value='no' />
+                  <customization name='CAP_JDBC_SUPPRESS_ENUMERATE_TABLES' value='no' />
+                  <customization name='CAP_QUERY_BOOLEXPR_TO_INTEXPR' value='yes' />
+                  <customization name='CAP_QUERY_FROM_REQUIRES_ALIAS' value='no' />
+                  <customization name='CAP_QUERY_GROUP_ALLOW_DUPLICATES' value='yes' />
+                  <customization name='CAP_QUERY_GROUP_BY_ALIAS' value='yes' />
+                  <customization name='CAP_QUERY_GROUP_BY_DEGREE' value='no' />
+                  <customization name='CAP_QUERY_HAVING_REQUIRES_GROUP_BY' value='no' />
+                  <customization name='CAP_QUERY_HAVING_UNSUPPORTED' value='no' />
+                  <customization name='CAP_QUERY_JOIN_ACROSS_SCHEMAS' value='no' />
+                  <customization name='CAP_QUERY_JOIN_REQUIRES_SCOPE' value='no' />
+                  <customization name='CAP_QUERY_NULL_REQUIRES_CAST' value='no' />
+                  <customization name='CAP_QUERY_SELECT_ALIASES_SORTED' value='yes' />
+                  <customization name='CAP_QUERY_SORT_BY_DEGREE' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERIES_WITH_TOP' value='yes' />
+                  <customization name='CAP_QUERY_SUBQUERY_QUERY_CONTEXT' value='yes' />
+                  <customization name='CAP_QUERY_TOPSTYLE_LIMIT' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_ROWNUM' value='no' />
+                  <customization name='CAP_QUERY_TOPSTYLE_TOP' value='yes' />
+                  <customization name='CAP_QUERY_TOP_0_METADATA' value='no' />
+                  <customization name='CAP_QUERY_TOP_N' value='yes' />
+                  <customization name='CAP_QUERY_WHERE_FALSE_METADATA' value='no' />
+                  <customization name='CAP_SELECT_INTO' value='yes' />
+                  <customization name='CAP_SELECT_TOP_INTO' value='yes' />
+                  <customization name='CAP_SET_ISOLATION_LEVEL_VIA_ODBC_API' value='no' />
+                  <customization name='CAP_SET_ISOLATION_LEVEL_VIA_SQL' value='no' />
+                  <customization name='CAP_SUPPRESS_CONNECTION_POOLING' value='no' />
+                  <customization name='CAP_SUPPRESS_DISCOVERY_QUERIES' value='no' />
+                </customizations>
+              </connection-customization>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='genericjdbc.00yickb0u4eshv14fsnvt12uczje' name='TWEET_DATA' table='[PUBLIC].[TWEET_DATA]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='genericjdbc.00yickb0u4eshv14fsnvt12uczje' name='TWEET_DATA' table='[PUBLIC].[TWEET_DATA]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>18</precision>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>text</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[text]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>text</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>223</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SENTIMENT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SENTIMENT]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>SENTIMENT</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>8</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NEGATIVE</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[NEGATIVE]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>NEGATIVE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>12</precision>
+            <scale>10</scale>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NEUTRAL</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[NEUTRAL]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>NEUTRAL</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>11</precision>
+            <scale>9</scale>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>POSITIVE</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[POSITIVE]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>POSITIVE</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>12</precision>
+            <scale>10</scale>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EMOTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[EMOTION]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>EMOTION</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>5</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ANGER</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[ANGER]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>ANGER</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>11</precision>
+            <scale>9</scale>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JOY</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[JOY]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>JOY</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>12</precision>
+            <scale>10</scale>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OPTIMISM</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[OPTIMISM]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>OPTIMISM</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>11</precision>
+            <scale>9</scale>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SADNESS</remote-name>
+            <remote-type>131</remote-type>
+            <local-name>[SADNESS]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>SADNESS</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>11</precision>
+            <scale>9</scale>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SUBJECT</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SUBJECT]</local-name>
+            <parent-name>[TWEET_DATA]</parent-name>
+            <remote-alias>SUBJECT</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <width>4</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <attributes>
+              <attribute datatype='string' name='TypeIsVarchar'>&quot;true&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Anger' datatype='real' name='[ANGER]' role='measure' type='quantitative' />
+      <column caption='Emotion' datatype='string' name='[EMOTION]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column caption='Negative' datatype='real' name='[NEGATIVE]' role='measure' type='quantitative' />
+      <column caption='Neutral' datatype='real' name='[NEUTRAL]' role='measure' type='quantitative' />
+      <column caption='Optimism' datatype='real' name='[OPTIMISM]' role='measure' type='quantitative' />
+      <column caption='Positive' datatype='real' name='[POSITIVE]' role='measure' type='quantitative' />
+      <column caption='Sadness' datatype='real' name='[SADNESS]' role='measure' type='quantitative' />
+      <column caption='Sentiment' datatype='string' name='[SENTIMENT]' role='dimension' type='nominal' />
+      <column caption='Subject' datatype='string' name='[SUBJECT]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Tweets' datatype='table' name='[__tableau_internal_object_id__].[TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F]' role='measure' type='quantitative' />
+      <column caption='Text' datatype='string' name='[text]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Portugal&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Tweets' id='TWEET_DATA_D5FA1754F05A4EEA841B05CB6BBD9E0F'>
+            <properties context=''>
+              <relation connection='genericjdbc.00yickb0u4eshv14fsnvt12uczje' name='TWEET_DATA' table='[PUBLIC].[TWEET_DATA]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Main'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='TWEET_DATA (PUBLIC)' name='federated.1s8gyxo17noakg1cscsaq141itnj' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1s8gyxo17noakg1cscsaq141itnj'>
+            <column caption='Sentiment' datatype='string' name='[SENTIMENT]' role='dimension' type='nominal' />
+            <column-instance column='[SENTIMENT]' derivation='Count' name='[cnt:SENTIMENT:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[SENTIMENT]' derivation='None' name='[none:SENTIMENT:nk]' pivot='key' type='nominal' />
+            <column-instance column='[SENTIMENT]' derivation='Count' name='[pcto:cnt:SENTIMENT:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='cell-w' value='432' />
+            <format attr='cell-h' value='432' />
+            <format attr='cell' value='54' />
+            <format attr='cell-q' value='270' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.1s8gyxo17noakg1cscsaq141itnj].[none:SENTIMENT:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1s8gyxo17noakg1cscsaq141itnj].[none:SENTIMENT:nk]' />
+              <size column='[federated.1s8gyxo17noakg1cscsaq141itnj].[cnt:SENTIMENT:qk]' />
+              <text column='[federated.1s8gyxo17noakg1cscsaq141itnj].[none:SENTIMENT:nk]' />
+              <text column='[federated.1s8gyxo17noakg1cscsaq141itnj].[pcto:cnt:SENTIMENT:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>&lt;</run>
+                <run>[federated.1s8gyxo17noakg1cscsaq141itnj].[none:SENTIMENT:nk]</run>
+                <run>&gt;</run>
+                <run>Æ&#10;</run>
+                <run><![CDATA[<[federated.1s8gyxo17noakg1cscsaq141itnj].[pcto:cnt:SENTIMENT:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='size' value='1' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9E4E0BFD-3B02-43D9-8432-F92929208BA1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Main'>
+      <cards>
+        <edge name='left'>
+          <strip size='202'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1s8gyxo17noakg1cscsaq141itnj].[none:SENTIMENT:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1s8gyxo17noakg1cscsaq141itnj].[cnt:SENTIMENT:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1s8gyxo17noakg1cscsaq141itnj].[none:SENTIMENT:nk]</field>
+            <field>[federated.1s8gyxo17noakg1cscsaq141itnj].[none:SUBJECT:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{647EAB88-556D-47F5-BD9F-F78B7A2E4007}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Main' width='192'>
+      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
+      sPA8AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
