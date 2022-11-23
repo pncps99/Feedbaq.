@@ -1,2 +1,6 @@
 nike
-McDonalds
+adidas
+mcdonalds
+starbucks
+samsung
+apple
